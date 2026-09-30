@@ -210,6 +210,10 @@
 - [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
 
+### Domain Search
+
+- [cl0q](https://cl0q.com) - Open search engine for domain research — 38.5M domains scanned, 24.8M pages indexed, free API tier (30 req/min, 1,000/day), no tracking.
+
 ---
 
 ## Exploitation
