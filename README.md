@@ -74,7 +74,6 @@
 - [Turbolist3r](https://github.com/fleetcaptain/Turbolist3r) - Subdomain enumeration tool with analysis features for discovered domains
 - [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
 - [tugarecon](https://github.com/LordNeoStark/tugarecon) - Fast subdomains enumeration tool for penetration testers.
-- [as3nt](https://github.com/cinerieus/as3nt) - Another Subdomain ENumeration Tool
 - [Subra](https://github.com/si9int/Subra) - A Web-UI for subdomain enumeration (subfinder)
 - [Substr3am](https://github.com/nexxai/Substr3am) - Passive reconnaissance/enumeration of interesting targets by watching for SSL certificates being issued
 - [domain](https://github.com/jhaddix/domain/) - enumall.py Setup script for Regon-ng
@@ -129,7 +128,6 @@
 
 ### Technologies
 
-- [wappalyzer](https://github.com/AliasIO/wappalyzer) - Identify technology on websites.
 - [webanalyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning.
 - [python-builtwith](https://github.com/claymation/python-builtwith) - BuiltWith API client
 - [whatweb](https://github.com/urbanadventurer/whatweb) - Next generation web scanner
@@ -259,6 +257,7 @@
 - [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL security testing tool
 - [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - Burp Suite extension to help make Graphql request more readable
 - [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Obtain GraphQL API schema despite disabled introspection!
+- [graphql-cop](https://github.com/dolevf/graphql-cop) - A Python utility for auditing GraphQL APIs for common security issues, including DoS, CSRF, and information leaks.
 
 ### Header Injection
 
@@ -292,6 +291,7 @@
 
 ### Request Smuggling
 
+- [HTTP Request Smuggler](https://github.com/PortSwigger/http-request-smuggler) - Burp Suite extension for detecting and exploiting HTTP Request Smuggling and desynchronization vulnerabilities.
 - [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP Request Smuggling Detection Tool
 - [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
 - [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
@@ -327,13 +327,11 @@
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
 - [NoSQLMap](https://github.com/codingo/NoSQLMap) - Automated NoSQL database enumeration and web application exploitation tool.
 - [SQLiScanner](https://github.com/0xbug/SQLiScanner) - Automatic SQL injection with Charles and sqlmap api
-- [SleuthQL](https://github.com/RhinoSecurityLabs/SleuthQL) - Python3 Burp History parsing tool to discover potential SQL injection points. To be used in tandem with SQLmap.
 - [mssqlproxy](https://github.com/blackarrowsec/mssqlproxy) - mssqlproxy is a toolkit aimed to perform lateral movement in restricted environments through a compromised Microsoft SQL Server via socket reuse
 - [sqli-hunter](https://github.com/zt2/sqli-hunter) - SQLi-Hunter is a simple HTTP / HTTPS proxy server and a SQLMAP API wrapper that makes digging SQLi easy.
 - [waybackSqliScanner](https://github.com/ghostlulzhacks/waybackSqliScanner) - Gather urls from wayback machine then test each GET parameter for sql injection.
 - [ESC](https://github.com/NetSPI/ESC) - Evil SQL Client (ESC) is an interactive .NET SQL console client with enhanced SQL Server discovery, access, and data exfiltration features.
 - [mssqli-duet](https://github.com/Keramas/mssqli-duet) - SQL injection script for MSSQL that extracts domain users from an Active Directory environment based on RID bruteforcing
-- [burp-to-sqlmap](https://github.com/Miladkhoshdel/burp-to-sqlmap) - Performing SQLInjection test on Burp Suite Bulk Requests using SQLMap
 - [BurpSQLTruncSanner](https://github.com/InitRoot/BurpSQLTruncSanner) - Messy BurpSuite plugin for SQL Truncation vulnerabilities.
 - [andor](https://github.com/sadicann/andor) - Blind SQL Injection Tool with Golang
 - [Blinder](https://github.com/mhaskar/Blinder) - A python library to automate time-based blind SQL injection
@@ -374,11 +372,9 @@
 - [XSSOauthPersistence](https://github.com/dxa4481/XSSOauthPersistence) - Maintaining account persistence via XSS and Oauth
 - [shadow-workers](https://github.com/shadow-workers/shadow-workers) - Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW)
 - [rexsser](https://github.com/profmoriarity/rexsser) - This is a burp plugin that extracts keywords from response using regexes and test for reflected XSS on the target scope.
-- [xss-flare](https://github.com/EgeBalci/xss-flare) - XSS hunter on cloudflare serverless workers.
 - [Xss-Sql-Fuzz](https://github.com/jiangsir404/Xss-Sql-Fuzz) - burpsuite 插件对GP所有参数(过滤特殊参数)一键自动添加xss sql payload 进行fuzz
 - [vaya-ciego-nen](https://github.com/hipotermia/vaya-ciego-nen) - Detect, manage and exploit Blind Cross-site scripting (XSS) vulnerabilities.
 - [dom-based-xss-finder](https://github.com/AsaiKen/dom-based-xss-finder) - Chrome extension that finds DOM based XSS vulnerabilities
-- [XSSTerminal](https://github.com/machinexa2/XSSTerminal) - Develop your own XSS Payload using interactive typing
 - [xss2png](https://github.com/vavkamil/xss2png) - PNG IDAT chunks XSS payload generator
 - [XSSwagger](https://github.com/vavkamil/XSSwagger) - A simple Swagger-ui scanner that can detect old versions vulnerable to various XSS attacks
 - [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
@@ -435,9 +431,7 @@
 - [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
 - [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
 - [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
-- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
 - [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
-- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
 - [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
 - [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
 - [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
@@ -569,6 +563,7 @@
 ### Web Proxy and Traffic Interception
 
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+- [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger) - Automatically generate OpenAPI 3.0 specifications from mitmproxy captures or HAR files to reverse-engineer REST APIs.
 - [proxify](https://github.com/projectdiscovery/proxify) - A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go.
 - [FoxyProxy Browser Extension](https://github.com/foxyproxy/browser-extension) - FoxyProxy is an open-source, advanced proxy management tool that completely replaces Chrome's limited proxying capabilities.
 - [zaproxy](https://github.com/zaproxy/zaproxy) - ZAP is what is known as a “manipulator-in-the-middle proxy.” It stands between the tester’s browser and the web application so that it can intercept and inspect messages sent between browser and web application, modify the contents if needed, and then forward those packets on to the destination.
@@ -589,6 +584,7 @@
 - [interactsh](https://github.com/projectdiscovery/interactsh) - Interactsh is an open-source tool for detecting out-of-band interactions. It is a tool designed to detect vulnerabilities that cause external interactions.
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
 - [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
+- [wakaru](https://github.com/pionxzh/wakaru) - Decompiles production JavaScript bundles (webpack, esbuild, Metro, and more) into readable modules, so JS files are easier to review and search.
 
 ### AI Agents
 
@@ -596,6 +592,7 @@
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform that orchestrates 80+ tools over MCP with dedicated per-technology offensive sub-agents (GraphQL, Spring Boot, ASP.NET, Node.js, Flask, PHP, Ruby) and a per-finding evidence trail.
 - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - AI-powered penetration testing assistant that helps automate security testing workflows and vulnerability discovery.
 - [Agentic Bug Bounty Hunter](https://github.com/Awarexone/Agentic-Bug-Hunter) - Claude Code plugin for autonomous bug bounty hunting across HackerOne, Bugcrowd, Intigriti and Immunefi — 15 skills, 33 commands and 9 agents covering recon-to-report, 21 web vuln classes, web3/meme-coin audits, LLM red-teaming, GraphQL/CORS/JWT/NoSQL scanners and persistent hunt memory. Works with or without a subscription.
+- [RedAmon](https://github.com/samugit83/redamon) - Open source (MIT) self-hosted AI pentest framework that maps the target's attack surface into a graph, exploits from a Kali sandbox with human approval gates, and opens pull requests that fix the findings.
 
 ---
 
